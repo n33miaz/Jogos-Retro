@@ -10,7 +10,7 @@ main::after {
     left: 0;
     min-height: 100vh;
     width: 80vw;
-    background: linear-gradient(-233deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
+    background: linear-gradient(-255deg, #000 40%, rgba(0, 0, 0, 0) 65%) no-repeat;
 }
 
 main .jogo {
@@ -55,10 +55,10 @@ main .jogo .imagem {
 }
 .conteudo .logo-expecifica-2 {
     background-image: url("../assets/logo-donkey-kong.png");
-    background-size: cover;
+    background-size: contain;
     margin-bottom: 20px;
-    height: 115px;
-    width: 636px;
+    height: 100px;
+    width: 475px;
 }
 .conteudo .logo-expecifica-3 {
     background-image: url("../assets/logo-mario.png");
@@ -71,8 +71,8 @@ main .jogo .imagem {
     background-image: url("../assets/logo-pac-man.png");
     background-size: cover;
     margin-bottom: 20px;
-    height: 115px;
-    width: 246px;
+    height: 150px;
+    width: 350px;
 }
 .conteudo .logo-expecifica-5 {
     background-image: url("../assets/logo-dunk-hunt.png");
@@ -112,9 +112,9 @@ main .jogo .imagem {
 
 .botoes .botao {
     border: none;
-    background: #fff;
+    background: #000;
     cursor: pointer;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .botoes .botao.selecionado {
